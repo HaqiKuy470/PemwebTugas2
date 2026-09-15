@@ -20,7 +20,6 @@ function updateLiveDate() {
 updateLiveDate();
 setInterval(updateLiveDate, 1000);
 
-// Toggle menu navigasi (tampilan mobile)
 const navbarToggle = document.getElementById("navbarToggle");
 const mainMenu = document.getElementById("main-menu");
 
@@ -28,7 +27,6 @@ navbarToggle.addEventListener("click", function () {
     mainMenu.classList.toggle("open");
 });
 
-// Klik salah satu nomor pagination untuk menandai halaman aktif
 const pagination = document.getElementById("pagination");
 
 pagination.addEventListener("click", function (event) {
